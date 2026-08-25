@@ -5,7 +5,7 @@ public class Main {
         for (String email : emails ) {
             
             if ( email != null &&  email.contains("@")) {
-                System.out.println(emails);
+                System.out.println(email);
             } else {
                 System.out.println("Invalid or missing email");
             }
